@@ -1,0 +1,235 @@
+html {box-sizing: border-box}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    background-image: linear-gradient(#116f74 10%, #fcfef1 50%, #116f74 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    color: #313f44;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    max-width: 1500px;
+  }
+
+main {padding-bottom: 20px;}
+
+#logo {width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 400px;
+  }
+
+header {width:100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+}
+
+.opener {width: 75%;
+  margin: 0 auto;
+padding: 20px;
+}
+
+h1 {font-size: 50px;
+width: 100%;}
+
+h3 {font-weight: lighter;
+font-size: 20px;
+width: 100%;}
+
+.calendly {
+  color: #fcfef1;
+  font-size: 25px;
+  width: 75%;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #00cccc;
+  box-shadow: 0px 5px 5px 5px #bbbcbc;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.calendly-link {
+  color: #fcfef1;
+  text-decoration: none;
+}
+
+.calendly-link:hover {
+  color: #116f74;
+}
+
+.service-box {width: 100%;
+margin: 0 auto; 
+}
+
+.service-title {color: #313f44;
+font-size: 50px;
+text-align: center;
+padding-top: 0px;
+margin-top: -35px}
+
+.service-figure {display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: auto;
+margin-right: auto;
+width: 80%px
+}
+
+
+.service-figure img {width: 50%;
+max-width: 300px;
+border-radius: 10px;
+}
+
+.serv-logo {display: flex;
+align-items: center;
+border-bottom: 5px solid #c2d3d6;
+padding-bottom: 25px;
+
+}
+
+.serv-logo:last-of-type {border-bottom: none;}
+
+.service-figure figcaption {color:#313f44;
+width: 100%;
+}
+
+.custom-pricing {
+  font-size: 20px;
+  border: 1px solid #c2d3d6;
+  box-shadow: 1px 1px 1px 1px #c2d3d6;
+  height: auto;
+  width: 80%;
+  padding: 10px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#price {font-size: 30px;
+font-style:italic;}
+
+.custom-pricing img {
+  display: inline;
+  vertical-align: middle;
+  }
+
+.custom-pricing li {list-style: none;}
+
+.intuitive {
+  width:90%;
+  border-top:5px solid #c2d3d6;
+  border-bottom: 5px solid #c2d3d6;
+  margin: 0px;
+  padding-right: 20px;
+margin: 0 auto}
+
+#intuitive {
+  display: flex;
+  align-items: center;
+  max-width: 90%
+}
+
+#intuitive-header {
+  margin: 10px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#books {width: 50%;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.pitch {padding: 20px;
+border-bottom: 5px solid #c2d3d6;
+width: 90%;
+margin: 0 auto;}
+
+.feeling {width: 80%;
+color: #313f44;
+margin: 0 auto;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+font-family: comic sans ms;
+font-weight: bold;
+}
+
+.pitch-lists {display: flex;
+  max-width: 90%;
+margin: 0 auto}
+
+.pitch-lists li {list-style: none;}
+
+
+.guide {text-align: center;
+font-size: 50px;
+padding: 20px;
+margin: 0 auto;}
+
+.my-bio {display: flex;
+  align-items: center;
+  max-width: 90%}
+
+.bio-cap { margin: 10px;
+  text-align: left;
+  padding-left: 20px;
+  font-size: 16px;
+  line-height: 25px;}
+
+.lightworker {text-decoration: none;
+color: #fcfef1;
+font-weight: bold;}
+
+.lightworker:hover {color: #313f44}
+
+.fa {padding: 10px;
+      width: 20px;
+      text-decoration: none;}
+
+.fa, .email {color: #116f74;}
+
+.fa:hover, .email:hover {color:#313f44;}
+
+footer {background-color: #c2d3d6;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+margin: 0 auto;
+text-align: center;}
+
+
+@media only screen and (max-width: 1000px) {
+  #logo {width: 75%; 
+  padding-left: 10px;}
+
+  header {padding-left: 10px;}
+
+  h1 {font-size: 30px;}
+  
+  .opener {padding-left: 10px;}
+  
+  #intuitive {display: flex;
+    flex-direction: column;}
+  
+  .service-figure img {display:table-caption;
+      caption-side:bottom} 
+  
+  .service-figure {display: table} 
+
+  .serv-logo {display: flex;
+    flex-direction: column;}
+
+  .pitch-lists {display: flex;
+  flex-direction: column;}  
+
+  .my-bio {display: flex;
+  flex-direction: column;}
+}

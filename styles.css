@@ -1,0 +1,316 @@
+html {box-sizing: border-box}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px auto;
+  background-image: linear-gradient(#116f74 10%, #fcfef1 50%, #116f74 90%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #313f44;
+  font-family: sans-serif;
+  max-width: 1500px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.header {
+  font-family: sans-serif;
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto auto 50px auto;
+}
+
+.welcome-video {
+  margin: auto;
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.question-box {
+  font-size: 30px;
+  width: 70%;
+  max-width: 70%;
+  padding: 20px;
+  margin: 3% auto;
+  font-family: comic sans ms;
+font-weight: bold;
+}
+
+.answer-box {
+  color: #fcfef1;
+  font-size: 30px;
+  font-family: comic sans ms;
+  font-weight: bold;
+  width: 60%;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #00cccc;
+  box-shadow: 0px 5px 5px 5px #bbbcbc;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+
+.calendly-link0 {color: #313f44;
+  text-decoration: none;}
+
+.calendly-link0:hover {color: #fcfef1}
+
+.for-you {
+  border-top: 2px solid #c2d3d6;
+  border-bottom: 2px solid #c2d3d6;
+  font-size: 40px;
+  width: 80%;
+  height: auto;
+  padding: 40px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.list {
+  font-size: 25px;
+  height: auto;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.list img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.understand {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  line-height: 50px;
+}
+
+.calendly {
+  color: #fcfef1;
+  font-size: 25px;
+  width: 80%;
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #00cccc;
+  box-shadow: 0px 5px 5px 5px #bbbcbc;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+
+.calendly-link {
+  color: #fcfef1;
+  text-decoration: none;
+}
+.calendly-link:hover {
+  color: #116f74;
+}
+
+.services {border-top: 2px solid #c2d3d6;
+  font-size: 40px;
+  color: #fcfef1;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 90%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;}
+
+.gallery img {border-radius: 50px;}
+
+.bring {
+  font-size: 40px;
+  border-top: 2px solid #c2d3d6;
+  width: 90%;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.gain,
+.budget {
+  font-size: 25px;
+  height: auto;
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.gain img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.pricing {
+  color: #fcfef1;
+  font-size: 40px;
+  width: 78%;
+  max-width: 78%;
+  margin: auto;
+  padding: 15px;
+  background-color: #116f74;
+  box-shadow: 0px 1px 1px 1px #bbbcbc;
+}
+
+.budget img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.calendly2 {
+  color: #fcfef1;
+  font-size: 25px;
+  width: 60%;
+  max-width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #00cccc;
+  box-shadow: 0px 5px 5px 5px #bbbcbc;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+
+.experiences {
+  border-top: 2px solid #c2d3d6;
+  font-size: 40px;
+  width: 80%;
+  height: auto;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.calendly3 {
+  color: #fcfef1;
+  font-size: 25px;
+  width: 50%;
+  max-width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #00cccc;
+  box-shadow: 0px 5px 5px 5px #bbbcbc;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+
+.guide {
+  color: #fcfef1;
+  font-size: 40px;
+  width: 78%;
+  max-width: 78%;
+  margin: auto;
+  padding: 15px;
+  background-color: #116f74;
+  box-shadow: 0px 1px 1px 1px #bbbcbc;}
+
+  .calendly4 {
+    color: #fcfef1;
+    font-size: 25px;
+    width: 60%;
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #00cccc;
+    box-shadow: 0px 5px 5px 5px #bbbcbc;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+  }
+
+  .my-bio {
+    display: flex;
+    align-items: center;
+  }
+
+  .bio {width: 65%;
+  margin: auto; }
+
+  .services-link {color:#fcfef1;}
+ 
+  .lightworker {color: #fcfef1;
+  font-weight: bold;
+  text-decoration: none;}
+  
+  .fa, .email {color: #116f74;}
+  
+  .lightworker:hover, .services-link:hover, .fa:hover, .email:hover {color:#313f44;}
+
+.testimonial {display:flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 10px;
+  padding: 0px 20px;
+  font-size: 15px;
+  font-style: italic;
+ 
+}
+
+.testimonial img {width: 100%;
+  min-width: 200px;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+footer {background-color: #c2d3d6;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+margin: 0 auto;
+text-align: center;}
+
+.fa {padding: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;}
+
+
+@media only screen and (max-width: 1150px) {.testimonial {display: block;}
+
+.my-bio {display: block}
+
+iframe {width: 600px;
+height: 400px;}
+  
+}
+
+@media only screen and (max-width: 750px) { .profile-pic {width: 100%}
+
+#logo {width: 75%;}
+
+.serv-logo {width: 90%;}
+
+iframe {width: 300px;
+  height: 200px;}
+
+.for-you, .header, .bring, .experiences, .guide {
+  font-size: 30px;
+  padding: 0px;
+}
+ 
+.testpic {display: inline-block; width: 100%; margin: auto}
+
+.my-bio {display: inline-block; width: 100%; margin: auto}
+}
